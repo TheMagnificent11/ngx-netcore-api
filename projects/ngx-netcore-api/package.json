@@ -1,6 +1,20 @@
 {
   "name": "ngx-netcore-api",
   "version": "0.0.1",
+  "description": "Angular module for HTTP communication with ASP.Net Core Web API",
+  "keywords": [
+    "Angular6",
+    "aspnet-core",
+    "http-client"
+  ],
+  "author": {
+    "name": "Saji Weerasingham",
+    "url": "https://github.com/TheMagnificent11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheMagnificent11/ngx-json-localstroage.git"
+  },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
