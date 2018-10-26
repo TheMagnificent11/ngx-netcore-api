@@ -25,8 +25,8 @@ export class ApiService {
             });
     }
 
-    post(entityRoute: string, body: any): Observable<Object> {
-        return this.http.post(
+    post<T>(entityRoute: string, body: any): Observable<T> {
+        return this.http.post<T>(
             this.getApiRoute(entityRoute),
             body,
             {
@@ -34,8 +34,8 @@ export class ApiService {
             });
     }
 
-    put(entityRoute: string, body: any): Observable<Object> {
-        return this.http.put(
+    put<T>(entityRoute: string, body: any): Observable<T> {
+        return this.http.put<T>(
             this.getApiRoute(entityRoute),
             body,
             {
