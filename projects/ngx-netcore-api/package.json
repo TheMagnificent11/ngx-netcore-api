@@ -1,6 +1,6 @@
 {
   "name": "ngx-netcore-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular module for HTTP communication with ASP.Net Core Web API",
   "keywords": [
     "Angular6",

@@ -13,4 +13,4 @@ import { ApiService } from './api.service';
         ApiService
     ]
 })
-export class ServicesModule { }
+export class NgxNetCoreApiModule { }
