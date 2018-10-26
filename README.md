@@ -7,7 +7,8 @@ Angular module for HTTP communication with ASP.Net Core Web API
 
 ## Usage
 
-1. Import `ngx-netcore-api` into your application's module.
-2. Import `ApiService` as a dependency into your Angular component or provider
-3. Use the generic `get<T>`/`post<T>`/`put<T>`/`delete<T>` methods to execute call to API endpoints
-4. Use the `BadRequestHelper.getErrorMessage` static method to convert `ValidationProblemDetails` bad request error responses received from the API into error messages.
+1. Import `NgxNetCoreApiModule` into your application's module.
+2. Import `ApiService` as a dependency into your Angular component or provider.
+3. TODO: Info about `BASE_URL` and `AUTHORIZATION_TOKEN_SERVICE` providers.
+4. Use the generic `get<T>`/`post`/`put`/`delete` methods to execute call to API endpoints.
+5. Use the `BadRequestHelper.getErrorMessage` static method to convert `ValidationProblemDetails` bad request error responses received from the API into error messages.

@@ -25,8 +25,8 @@ export class ApiService {
             });
     }
 
-    post<T>(entityRoute: string, body: T): Observable<T> {
-        return this.http.post<T>(
+    post(entityRoute: string, body: any): Observable<Object> {
+        return this.http.post(
             this.getApiRoute(entityRoute),
             body,
             {
@@ -34,8 +34,8 @@ export class ApiService {
             });
     }
 
-    put<T>(entityRoute: string, body: T): Observable<T> {
-        return this.http.put<T>(
+    put(entityRoute: string, body: any): Observable<Object> {
+        return this.http.put(
             this.getApiRoute(entityRoute),
             body,
             {
@@ -43,8 +43,8 @@ export class ApiService {
             });
     }
 
-    delete<T>(entityRoute: string): Observable<T> {
-        return this.http.delete<T>(entityRoute);
+    delete(entityRoute: string): Observable<Object> {
+        return this.http.delete(entityRoute);
     }
 
     private getApiRoute(entityRoute: string): string {
