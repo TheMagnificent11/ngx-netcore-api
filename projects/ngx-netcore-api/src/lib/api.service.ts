@@ -13,7 +13,7 @@ export class ApiService {
 
     constructor(
         private http: HttpClient,
-        @Inject(BASE_URL) private baseUrl,
+        @Inject(BASE_URL) private baseUrl: string,
         @Inject(AUTHORIZATION_TOKEN_SERVICE) private tokenService: AuthorizationTokenService
     ) { }
 
